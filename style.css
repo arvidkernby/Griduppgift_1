@@ -1,0 +1,40 @@
+.gridbox {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 2fr 6fr;
+}
+
+header {
+    text-align: center;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+main {
+    text-align: center;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+footer {
+    text-align: center;
+    grid-column: 2/3;
+    grid-row: 6/8;
+}
+
+nav {
+    grid-column: 1/2;
+    grid-row: 2/5;
+}
+
+.MDN {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 150px;
+    height: 100px;
+}
+
+aside {
+    grid-column: 1/2;
+    grid-row: 6;
+}
